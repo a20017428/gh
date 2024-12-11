@@ -1,0 +1,79 @@
+RMS
+\\NTHCCIMFS\FABAuto\A_Setup\NTFABEXE\RMS
+
+ss-6
+\\ctos-pc\CaptureScreen\S200
+
+SS-3
+\\p2ss-3.nufab.nuvoton.cim\SS-3\My Snapshots
+
+SS-5
+\\p2oe-5.nufab.nuvoton.cim\SS-5\My Snapshots
+
+win310
+10.12.244.101
+NTHCGC\Administrator
+NTHC@wbgc
+
+APC
+10.4.11.230
+COPCD01511\s200APC
+123456789
+
+pump
+10.4.8.3
+furnace
+furnace
+
+printer
+\\nthcprnt05
+02
+
+地震異常處理
+http://ntdept2/sites/S000/S200/DocLib7/Forms/AllItems.aspx
+
+
+nthccimdb01\cimdb01 S200DNZ2 SUSER543
+
+nthccimdb02\cimdb02 fab2 fab2
+DB Name: repADC2IDB
+
+nthccimdb02\cimdb02 batchotd forotd2015
+DB Name: CIS
+
+nthccimdb02\cimdb02 S200DNZ2 SUSER543
+DB Name: USERIDB
+
+Nthcoadb03 batchmdscon formdscon
+
+nthccimdb08 fab2 fab2
+
+WEHQDBMS01 fab2123 fab21230324
+
+nthccimdb04\cimdb04 Fab2 Fab2
+
+https://nuvoton.sharepoint.com/sites/Nuvoton_Power_BI_Data_Source/ 個人認證 個人認證
+
+
+power
+nthccimdb01\cimdb01 S200DNZ2 SUSER543
+
+nthccimdb02\cimdb02 fab2 fab2
+DB Name: repADC2IDB
+
+nthccimdb02\cimdb02 batchotd forotd2015
+DB Name: CIS
+
+nthccimdb02\cimdb02 S200DNZ2 SUSER543
+DB Name: USERIDB
+
+nthccimdb02\cimdb02 fab2 fab2
+DB Name: repADC2IDB
+
+nthccimdb08 fab2 fab2
+
+WEHQDBMS01 fab2123 fab21230324
+
+nthccimdb04\cimdb04 Fab2 Fab2
+
+https://nuvoton.sharepoint.com/sites/Nuvoton_Power_BI_Data_Source/
