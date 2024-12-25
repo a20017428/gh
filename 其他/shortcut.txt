@@ -29,6 +29,8 @@ printer
 \\nthcprnt05
 02
 
+\\nuvoton.com\DeptShare\S000
+
 地震異常處理
 http://ntdept2/sites/S000/S200/DocLib7/Forms/AllItems.aspx
 
