@@ -34,6 +34,9 @@ printer
 地震異常處理
 http://ntdept2/sites/S000/S200/DocLib7/Forms/AllItems.aspx
 
+SPC刪除
+http://nthccimweb01/eform/spcdelete/index2.aspx
+
 
 nthccimdb01\cimdb01 S200DNZ2 SUSER543
 
@@ -79,3 +82,5 @@ WEHQDBMS01 fab2123 fab21230324
 nthccimdb04\cimdb04 Fab2 Fab2
 
 https://nuvoton.sharepoint.com/sites/Nuvoton_Power_BI_Data_Source/
+
+\\nthccimnas01\S000\DeptShare\S200\2024 Wc 交接
