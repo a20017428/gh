@@ -1,3 +1,5 @@
+\\nthccimnas01\S000\DeptShare\S200\2024 Wc 交接
+
 RMS
 \\NTHCCIMFS\FABAuto\A_Setup\NTFABEXE\RMS
 
@@ -83,4 +85,4 @@ nthccimdb04\cimdb04 Fab2 Fab2
 
 https://nuvoton.sharepoint.com/sites/Nuvoton_Power_BI_Data_Source/
 
-\\nthccimnas01\S000\DeptShare\S200\2024 Wc 交接
+
