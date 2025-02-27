@@ -1,0 +1,818 @@
+6/3 無
+6/4 逛
+6/5 P2 5PM
+6/6 T5 3PM
+6/7 P6 2PM
+6/11 T1 2PM
+6/12 P4 1PM
+6/13 N5 SPM APC
+6/14 N4 1PM
+6/17 P3 4PM 刮管 承接 傳送
+6/18 T3 1PM trap shutter  刮管 承接 傳送
+6/19 N7 轉子更換
+6/20 N1 SPM動手
+6/21 P1 5PM前段動手
+6/24 T5 SMP全動手
+6/25 急救
+6/26 RTP4 25PM
+6/27 GRD3/OSC/PASTE  MPM
+6/28 P2 1PM
+7/1 N4 SPM
+7/2 F18 YPM
+7/3 GRD2 MPM
+7/4 T8 SPM沒監督
+7/5 稽核 下午跟值
+7/8 N5 4PM
+7/9 P6 SPM
+7/10 P3 5PM
+7/11 F25 BPM
+7/12 N3 4PM
+7/15 N2 2PM
+7/16 wsix bpm
+7/17 T5 SPM
+7/18 T4 3PM
+7/19 F16 YPM
+7/22 osc2 rip past sorter 鋼瓶
+7/23 N4 2PM
+7/24 假
+7/25 假
+7/26 T8 3PM
+7/29 grd2 osc1 rip MPM
+7/30 WSIX2A BPM
+7/31 跟值
+8/1 N7 3PM
+8/2 T2 2PM
+8/5 S2-10 bath-2換酸
+8/6 GRD-3/ADE/OSC2 MPM
+8/7 
+8/8
+8/9 F38 YPM
+8/12 跟值
+8/13 T1 3PM
+8/14 F13 BPM
+8/15
+8/16 P6 5PM
+8/19 P3 SPM
+8/20
+8/21
+8/22 RCM2
+8/23 EM MPM
+8/26 F07 QPM
+8/27 GRD3 MPM
+8/28 P6 SPM
+8/29 F19 QPM
+8/30 EM WPM
+9/2 T3 3PM
+9/3 值班
+
+28333 值班
+28238 leader
+28136管制台
+31119救護
+32119事件
+28429水課
+28439氣課
+28449氣課EA(酸坊)
+28331/38331老闆
+28131 S100值班主任
+
+FUR
+28360 leader oncall
+38365李治中1210045 CCLi22 0934-330802
+38238黃建華1000556 CHHuan8 0912-530213
+38336陳宸緯1240170 CWChen27 0921-441136
+38361林峻毅1240097 JYLin 0981-501710
+35356蔡孟哲1000998 MCTsai4 0963-154052
+38360高明勝1240171 MSKao 0970-505646
+38331邱尊護1940132 THChiu 28331 0935-023783
+38332林韋志1170064 WCLin15 0926-810100
+38352顏竹1240076 YEnchu 0975-952230
+38350歐陽以恆1200247 YHOuyang 0919-078234
+38359吳致佑1240164 ZYWu 0970-665523
+38440麥可9200004 ZES4DML 0987-433728
+38442托馬斯9220035 ZES2CTJDC 0976-441377
+38441拉菲9220037 ZES2VRT 0916-453134
+IMP
+38355徐哲軒1170051 CHHsu16 0972-206531
+38337吳承澔1240051 CHWu22 0958-150407
+38339江皓誠1240092 HCChiang 0968-213920
+38362邱鏡宸1240138 JCChiu2 0978-957418
+38338張瑞宏1240146 JHChang 0930-671673
+38351林順安1050663 SALin 0918-218316
+38334詹德仁1020477 TJChan 0920-590921
+38354徐偉傑1110178 WCHsu2 0972-285598
+38335楊裕濬1000366 YCYang7 0975-783729
+38333陳侑聖1220187 YSChen15 0978-535663
+38358山姆爾9170001 ZES2ASJJ 0987-161584
+
+公司電話外線
+411, 0 0X-XXXXXXXXX
+411 > 嘟聲 0 > 號碼
+
+
+​OI LK clean cap/roller, check O-ring OK.
+
+Replace tape and cutter, test 2pcs OK.
+
+Replace tape, test 2 pcs OK.
+
+​16PM, run count = 2493.
+Replace Liner, check chiller level ok.
+
+win310 DKA200 = 
+
+win330 DKA300 = 
+
+EQM/MOM/MMM sysdown, reboot ok.
+
+降溫拆管, follow BPM.
+
+Replace Trans-LC ok, turn off pump power & water/N2.
+
+t1~6
+n1~6 d
+
+n7
+p1~4 D
+
+t8~9
+p6~7 J
+
+f16 d
+
+f1~26 39 D
+
+f27~30 E
+
+f32~38 I
+
+f40~42 J
+
+f44~45 koyo31 43 B
+
+rtp1~3 G
+
+rtp4 K
+
+em4 A em5 D em6 I
+sorter
+J1 K1 I1 I2 D1 d2 W1 W2 
+
+wsix1 A wsix2 G
+
+P1、P2、P3、P4、P6			POLY沉積
+P7					INSITU POLY
+T1、T2、T3、T4、T5、T6、T8		TEOS沉積
+T9 					HTO
+N1、N3、N4、N5、N7			NITRIDE沉積
+N2、N6					薄NITRIDE沉積
+F4、F5、F8、F9、F10、F11、F24、F42	井區擴散(drive in)
+F12、F14、F17、F22、F26			襯墊氧化(PAD)
+F1、F2、F3、F7、F15 			場氧化(FIELD) backup drive-in  F02、F15 
+F20、F21				犧牲氧化(SAC)
+F6、F16、F18、F19、F23			閘層氧化(GATE)
+F13、F25、F39 				N+預置(POCL3)
+F32、F33、F34、F35			POLY OX、S/D氧化、S/D趨入
+F36、F37、F38、F41			BPSG流動、回火、介層密化
+F27、F29、F40				融合(ALLOY) backup curing
+F28、F30、F31(KOYO)、F44、F45		烘烤(CURING)
+F43(KOYO)				POLYMIDE
+
+sic boat
+drive field F20 F33 F35(backup)
+
+f02 f15 field backup drive in
+
+alloy有H2可轉curing 不可逆轉
+
+點火
+sac gate field drive in f37 f33
+
+NO TORCH
+BPSG POX ALLOY CURING
+
+\\nthccimnas01\S000\DeptShare\S200\2024 Wc 交接
+
+\\wehqinfo19
+
+RMS
+\\NTHCCIMFS\FABAuto\A_Setup\NTFABEXE\RMS
+
+ss-6
+\\ctos-pc\CaptureScreen\S200
+
+ss-3
+\\p2ss-3.nufab.nuvoton.cim\SS-3\My Snapshots
+
+win310
+10.12.244.101
+NTHCGC\Administrator
+NTHC@wbgc
+
+APC
+10.4.11.230
+COPCD01511\s200APC
+123456789
+
+pump
+10.4.8.3
+furnace
+furnace
+
+printer
+\\nthcprnt05
+02
+
+\\nuvoton.com\DeptShare\S000
+
+地震異常處理
+http://ntdept2/sites/S000/S200/DocLib7/Forms/AllItems.aspx
+
+SPC刪除
+http://nthccimweb01/eform/spcdelete/index2.aspx
+
+ass
+nthccimdb01\cimdb01 S200DNZ2 SUSER543
+
+nthccimdb02\cimdb02 fab2 fab2
+DB Name: repADC2IDB
+
+nthccimdb02\cimdb02 batchotd forotd2015
+DB Name: CIS
+
+nthccimdb02\cimdb02 S200DNZ2 SUSER543
+DB Name: USERIDB
+
+Nthcoadb03 batchmdscon formdscon
+
+nthccimdb08 fab2 fab2
+
+WEHQDBMS01 fab2123 fab21230324
+
+nthccimdb04\cimdb04 Fab2 Fab2
+
+https://nuvoton.sharepoint.com/sites/Nuvoton_Power_BI_Data_Source/ 個人認證 個人認證
+
+power
+nthccimdb01\cimdb01 S200DNZ2 SUSER543
+
+nthccimdb02\cimdb02 fab2 fab2
+DB Name: repADC2IDB
+
+nthccimdb02\cimdb02 batchotd forotd2015
+DB Name: CIS
+
+nthccimdb02\cimdb02 S200DNZ2 SUSER543
+DB Name: USERIDB
+
+nthccimdb02\cimdb02 fab2 fab2
+DB Name: repADC2IDB
+
+nthccimdb08 fab2 fab2
+
+WEHQDBMS01 fab2123 fab21230324
+
+nthccimdb04\cimdb04 Fab2 Fab2
+
+https://nuvoton.sharepoint.com/sites/Nuvoton_Power_BI_Data_Source/
+
+
+
+PCRB process change review board
+TECN temporaty engineering change noitce
+EMS equiment management system
+RMS recipe management system
+SPC statistical process control
+QIT quality improvement team
+WIP work in process
+周轉率 = movement產量/wip投片後未完成
+POH per of hour movement
+develivery交期
+shipping cycle time投入到產出時間
+layer cycle time過一次黃光stepper時間
+OTD on time delivery rate合格出貨比率
+
+angstrom=10^-10 meter
+
+pmos 電洞 正
+
+(1,1,1)=原子結構面 xyz象限連線(中間切面)
+
+sio2 二氧化矽 絕緣 碰氧氣生長 晶圓自身矽減少生長量44% 越長越慢(sio2變厚)
+
+HCL 氯化氫 和鈉、鉀反應 清mobile ion 
+
+室溫400度 800
+
+通氮氣保持大氣壓
+
+氫氣佔1%會爆炸
+
+乾氧 純氧  快 慢薄 gate oxide閘極和其他2極間絕緣  sac pad 高品質
+
+濕氧 氧+氫=水 快厚 fild oxide元件間絕緣 品質差，但是夠厚
+
+sio2 particle
+organic residue有機物 PR(photoresist)光阻劑 塑膠...
+inorganic residue無機 鈉鉀..
+natice oxide layer自生氧化層
+
+RCA Clean
+先去除有機物
+DI water 去離子水沖5m(正負離子有靜電破壞oxide)
+硫酸(強氧化物)+雙氧水去除有機物
+DI water 去離子水沖5m
+
+氫氟酸HF去除自生氧化層sio2
+DI water 去離子水沖5m
+
+純矽不沾水
+
+SC-1氨水+雙氧水去除particle
+DI water 去離子水沖5m
+
+SC-2氯化氫(鹽酸)去除無機物
+DI water 去離子水沖5m
+
+2大絕緣 氧化矽sio2、氮化矽si3N4(silicon nitride)
+
+imp打3族硼/5族磷砷
+
+surface passivation 4種
+
+pad oxide襯墊氧化層 墊在nitride下，防止把下面壓壞、應力過大
+
+screen oxide遮蔽氧化層 imp時保護表面sio2 
+
+sacrificial oxide犧牲氧化層 乾氧 自生氧化去除defect表面 之後HF清除sio2 也可做screen
+
+diffision barrier擴散阻擋層 用sio2擋住 防止擴散到旁邊
+
+
+device isolation
+
+blanket field oxide 只擋上方漏電流
+LOCOS (local oxidation of silicon) 擋上下漏電流 用nitride遮罩後濕氧 圍起元件 不能做小元件
+
+STI (shallow trench isolation) 用nitride遮罩後挖洞 倒入USG矽玻璃填充 CMP磨平
+usg(undoped silicate glass)
+
+soft mask 光阻
+hard mask nitride
+
+
+poly>參雜>回火>降低阻值
+內應力  無外在因素時，物體內部的保持平衡拉扯 單一構造間的不同材質導致變形的力量不同
+550~900度 非晶矽(無晶向)和單晶矽(單晶向)之間
+
+poly複晶矽 擴散能力佳 高阻做電阻、參雜後低阻做閘極金屬層 閘極、電容 介電質
+nitride 阻擋氧氣、水蒸氣滲透 介電材料 氧化層無科的mask、LOCOS的masking layer
+teos 常溫液體、good step coverage、介電、隔離、hard mask、spacer(閘極旁邊，)
+Interpoly Dielectrics IPD複晶矽之間的介電質、InterMetal Dielectrics IMD含BPSG 底下之Barriered Layer，金屬層間的介電質
+BPSG 矽玻璃 平坦化 用於PMD pre metal dielectric預金屬介電質 將要沉積的金屬隔離矽 
+inter-metal dielectric (IMD)金屬間介電質
+in situ 長複晶矽同時加入雜質氣源於反應氣體中，直接長 磷n-type 或 硼p-type 複晶矽
+HTO high temperature oxide
+高溫氧化 電性物理特性更好
+POCL3 摻雜磷
+poly ox 電氣隔離 閘極介電物質
+drive in
+熱擴散，形成well(N P摻雜區)
+在表面形成1700Å Oxide，然後1100℃高溫下 4～6 小時，經高溫將離子趨入至深度 2μm～3μm，形成 N Well或P Well
+
+spacer 閘極側邊，做低濃度區域(lighty doped drain LDD) 提升電器特性 控制摻雜區域
+防止熱載子效應(Hot-carrier effect) 元件小、電荷能量大、流動快、漏電流、影響元件電壓特性
+
+矽自生氧化1:0.44，poly 1:1
+dry一矽配4氧，結構緊密
+氧氫比1.4+-0.1，1.8易爆
+1.1.1晶向crystal orientation 結晶排列方向
+多晶矽 晶向不同
+
+wsix+poly 矽化鎢 降低電阻減少閘極延遲 改善粗糙表面、水痕，更好接合金屬層
+
+alloy curing 增加矽和金屬間的附著力，降低電阻 改善電氣特性和穩定性
+
+single tc 日常監測 超溫 double tc control+monitor 平常用control
+p7 t9 quartz tube
+GaN nitride(後方標示) transfer c2 c3 c4 fork-1
+poly直內管，其他縮
+poly nitride pedestal 5+7fin teos 5fin
+koyo AP POLYIMIDE 烘烤
+PI塗佈 耐熱絕緣材料
+軟烤揮發溶劑
+硬烤(固化cure) 物理特性變強
+頂層保護 避免機械傷害 化學腐蝕 濕氣侵入 減少封裝過程熱應力和機械應力影響
+poly沒trap
+nitride沒burn box QSV
+Field Oxide(5500Å)
+常開 5年更換
+pump40HZ>60HZ M05 unlock
+LK 
+poly 0 130s
+teos 0.02 70
+nitride 0.02 130
+垂直占地小、汙染少、手臂力矩小、均勻性(重力/氣流)
+
+
+趨入 退火 合金 回流
+
+RTP 原子低位能移動 修復晶格 活化參雜物  降低應力 再結晶 
+
+合金退火 晶粒結構變大、降低電阻
+
+在流動平滑表面 容易微影、金屬化
+
+thermal flow 高溫加工
+
+PECVD電漿 RTCVD
+
+爐管怕地震 報廢150片
+
+dry 電性好
+wet 溫高防氫爆
+
+WAT
+研磨 貼膠撕
+
+OOC
+out of control 控制失效 超出控制範圍 穩定性可控性 修正即可
+OOS 
+out of specification 規格失效 無法滿足設計要求 報廢
+
+RCA類CMP
+
+表面鈍化
+
+RTP控制熱積存(IMP後加熱的時間和溫度組合)
+
+高深寬比(High aspect ratios) 凹凸大
+
+run 移動擋片
+TEST SYSG
+ORG MOTION top carrier and top/bottom boat
+well pitch slider 垂直移動 判斷wafer在carrier or boat
+eval load 使用map傳送
+mode select 切on/offline for interlock
+
+T/C tube controller m3100 recipe ready
+E/L boat elevator remote ready
+TR boat	transfer position
+
+poly
+spm 9+-2
+bpm 19+-2
+5pm
+
+teos
+spm 9+-2
+spm 18+-2
+bpm 27+-2
+3pm
+
+nitride
+nornal
+spm 40+-10
+spm 80+-10
+bpm 120+-14
+4pm
+
+thin
+spm 150+-15
+bpm 300+-30
+4pm
+
+N無QSV
+N BPM拆
+pressure bellow elbow gaugeport
+4PM +gas bellow elbow
+
+t 3pm
+pressure bellow
+elbow
+gauge port
+
+
+7月酬勞=分紅
+績效 2次考績 
+上半年10月 下半3月
+調薪4月
+
+P
+P07 P09
+1490+-70 1500+-30
+<30	<30
+30A/oC	30A/oC
+
+t
+t05
+1500+-60
+<100
+30A/oC
+
+N thin normal
+n08	n01
+1500+-50 200+-13 
+<100 	<16.398 	
+3A/oC(PM測5A) 30A/oC 
+
+wsix 
+1200k 1700k LK
+66+-1 49+-1 <0.95
+<3.5 <3.5
+1.2o/sec 0.6o/sec
+
+koyo 
+c05
+95(150~40)
+<300
+
+RTP
+710 	925 	980	PTC
+3.9+-1 163+-9	122+-5 <29
+<5	<25	<15
+EM^ RSv
+1.4o/EM 20o/EM 10o/em
+
+PTC<25
+
+baresi 0.3
+
+反應步驟
+p 14
+
+t 13
+
+n
+thin thick
+16 	17
+
+反應壓力
+P 0.3
+T 0.8
+
+poly ox bpsg 無torch?
+
+28429
+s2-11正數
+內bath1 n t
+EQ 3333 FE 1111
+開v14 v15
+混酸
+
+s2-10 倒數 auto/run panel 確認count = 0
+alarm2 畫面 process count up alarm
+bath1 poly
+bath supply%drain畫面 manul
+acid&overflow acid 排酸 > 排完關掉
+count 重設45
+按tmc > parameter
+按P鍵反藍後同時長按bath和del
+回auto/run 確認recipe正確
+選auto > start 補酸
+
+S2-5
+開手動閥
+
+上貨不抓
+G/C *號
+F14 > 3.process
+1.progredd > 1.retry
+若無法retry 重開機台online
+恆亮正常，閃爍 reset SG2610-B 左白 右撥為cold start
+
+mesui e-runcard view 輸入lot 多站查詢
+
+D/W
+N 4 13 inj n2:500 NH3:25 SIH4:45
+T 4 13 inj n2:1000 O2:25 TEOS:平口
+P 6 11 inj n2:120 SIH4:310 SIH4:950
+F 8 9
+
+SB50
+T1 T2 T6
+T3 T4 T5
+AS50
+T8
+
+O2+H2 ALLOY
+O2 CURING
+
+CPOT ROBOT RT FULL全橋
+half 0.13 0.33 
+full 0.18 0.38
+
+G/C
+NTHCGC NTHCGC@ 上一頁F6
+reboot
+右下角charon service
+上方選單service management
+第一格manage charon service
+stop > start
+
+* download失敗
+@ 抓片
+F 下cassette
+A alarm
+T T-bawl alarm
+
+mill=25.4 um
+tape = 200um
+
+P調溫620+-5
+bpm P07 vr1 vr2 同時調
+P09 C6無產品
+
+auto 例測
+C/P 測機
+OOC/OOS要release
+
+I38先測
+
+點火
+T1 120secs 3000sccm O2 purge
+T2 15 secs 3000 O2 + 2000 N2 purge
+T3 x+5 secs 3000 O2 + 3000 H2 點火
+T4 99 O2 PURGE (有H2才跳T4)
+
+1.carrier port前夾
+2.carrier port後夾
+3.flat 左右
+4.平邊下 頂
+5.轉
+6.平邊上 頂
+7.count上下
+8.carrier port轉上下
+9.robot上下
+10.robot carrier arm RT
+11.robot carrier arm FB
+12.robot carrier arm lock
+13.A stage FB
+14.B stage FB
+15.A stage lock
+16.B stage lock
+17.
+18.
+19.robot fork arm RT
+20. fork-1 FB
+21. fork-5 FB
+22.
+23.count
+24.
+25.
+26.carrier port lock
+
+Z bpsg Y polyox
+
+VL ID35 > sys:8848 > posc > check position = no > 重找position
+auto04 自動BE load/unload
+
+SAC平邊朝後
+
+靠爐壁變厚， P靠爐壁變薄???
+
+T9 N2 N5 F27 F30厚片傳送
+
+em-5
+crtl alt del 重開
+secs密碼swan
+ino包含inl
+
+m340
+MC-31007A 類比 MFC控制
+MC-31008A-1 ~ 3 數位VALVE、FRONT PANEL控制
+MC-31009A操作設定；APC DRIVER控制
+SG2700B 如M340CPU，訊號運算處理，M340訊號傳至3100、訊號傳輸橋梁
+
+M120上TC PCB 下溫控PCB
+
+庫房鑰匙182
+
+
+P6 no P09
+
+outlook 行事曆 共用行事曆 新增
+行事曆 新項目 會議 必要 rm. A244 排程幫手check
+
+舊網頁首頁 S000 常用連結 FAB NAS SERVER S200 2024WC交接
+
+
+擴散工程部 > LIST > FROM exist list
+舊版上工具列 LIST > List setting > advance setting > classic
+舊版上工具列 LIST > List setting > create column
+一班申請 > 費用 > 一般費用報銷 > 新增報銷項目 > 21三聯式 or 25電子發票 > 本金/稅額 > 統編 >
+付款對象 > 發票廠商(確認發票號碼) > 其他員工 > 對象老闆
+目的: 購買XXX費用
+預算: S200
+收信印出 傳遞F100(1F直走印表機拿傳遞夾)
+
+請購申請-文具 > stationery (R500)
+
+地震gal
+0級0.8下
+1級0.8~2.5
+2級2.5~8
+3級8~25
+4級25~80
+
+8gal 放impact entity & log list交接
+8~15 LP C1 PTC or C1產品surfscan/AOI
+15~20 同上+gateox
+(gate都要hold to PE、C1缺角)
+>=20 同上+AP
+
+>=2.5 POCL3
+8~15 POCL3、各TUNNEL抽4台check boat，位移洽製成
+15~20 同上、GATE下次test run測C1/C4/C6 PTC、LP為反應則跳至反應後步驟、都要test run
+20~25 同上+AP、check gas pipe、torch、exhaust、pedestal碎石英
+復機:
+AP: LL+PTC 3控片、FxxLK recipe 使用MAP-1、以C/P-轉帳
+POCL3L: FxxB05
+ALLOY/CURING: FxxC01
+
+LP 為反應>跳至反應後，反應中續run、都要test run
+NITRIDE: N01
+THIN N: N08
+POLY: P07
+P7: LP7U02
+TEOS: T05
+HTO: HTO120
+
+>=25 +LP測漏/purge/test run
+
+>=20
+RTP: test710、WSIX: 1.2K/1.7K/PTC
+EM: 量測標準片OK則release
+
+壓降
+WSIX: chamber內報廢，其餘OM check PTC
+RTP: 補RUN
+EM: 檢查，有必要則校正
+GRD: 試磨
+面板+PUMP跳: PM測機項目
+
+氣壓<970禁ap，pocl3/alloy/curing/bpsg除外
+
+wsix burn in 1k
+
+supply 24/12/5V
+
+exit
+G/C ad password: telasdsap
+
+t bawl warm @check > 11111 > one init
+
+pressure gauge unlock 方式 :
+1. 長按 set 數秒鐘後 , 畫面會變成 lock
+2. 按 ↓ 鍵選擇 unlock
+3. 按下 set 設定完成
+
+pcv c4 lk 161
+
+
+EM5
+DEL LOG			  CHECK SIZE
+D: > CD RTIAPPS > CD LOG > DIR/P > DEL LOG0 > EXIT
+
+CHECK ALARM
+D: > CD RTIAPPS > CD BIN > E SAMURALERR > EXIT
+
+F31 PAI tmp controller
+
+amat chamber wall 40度
+neslab chamber lid 10度
+
+automation EM 連線 R200
+
+Nitride thick test run +1 C6
+POLY BPM 6 MW
+
+WSIX WF6
+
+alloy curing test c05 sampling 間格更短抓資料
+
+RTP 1 3全測
+3有GAN 4沒AR
+
+T5 T6 N7 PS1~PS3
+
+24v SENSOR
+5v BUTTON
+12V/5V BOARD
+
+760=調條件, 實際750亮燈 -> 逆時針縮小條件760
+
+I04(H2+O2=8L+16L)只在F24 run
+
+PF > PG > I38(map-2 5 m/w高阻值) PCV > I24 > HOX 1150 > HO2 1200
+
+rtp window 40度
+
+M01 MOTOR編號 ...GME, M02 ...H
+
+GRD Z2 wheel disco
+Z1 dressing 綠色 粗
+Z2 dressing 咖啡色 細
+
+polymide 8孔tube?
+TCU 20+-2度
