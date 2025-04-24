@@ -65,16 +65,22 @@
 9/2 T3 3PM
 9/3 值班
 
-28333 值班
-28238 leader
+28333 FUR 值班
+28238 FUR leader
+28339 IMP 值班
+28335 IMP leader
 28136管制台
 31119救護
 32119事件
+28419電
 28429水課
 28439氣課
 28449氣課EA(酸坊)
 28331/38331老闆
 28131 S100值班主任
+28234 210
+24330 R200值班
+33251 E200胡勝彥
 
 FUR
 28360 leader oncall
@@ -83,12 +89,14 @@ FUR
 38336陳宸緯1240170 CWChen27 0921-441136
 38361林峻毅1240097 JYLin 0981-501710
 35356蔡孟哲1000998 MCTsai4 0963-154052
-38360高明勝1240171 MSKao 0970-505646
+38360高明聖1240171 MSKao 0970-505646
 38331邱尊護1940132 THChiu 28331 0935-023783
 38332林韋志1170064 WCLin15 0926-810100
 38352顏竹1240076 YEnchu 0975-952230
 38350歐陽以恆1200247 YHOuyang 0919-078234
 38359吳致佑1240164 ZYWu 0970-665523
+28342梁碩智1250034 SZLiang 0905700119
+28377歐佳鑫1250043 JXOu 0978586566
 38440麥可9200004 ZES4DML 0987-433728
 38442托馬斯9220035 ZES2CTJDC 0976-441377
 38441拉菲9220037 ZES2VRT 0916-453134
@@ -103,6 +111,8 @@ IMP
 38354徐偉傑1110178 WCHsu2 0972-285598
 38335楊裕濬1000366 YCYang7 0975-783729
 38333陳侑聖1220187 YSChen15 0978-535663
+28367王子碩1250041 ZSWang2 0905732130
+28204黃建豪1250074 JHHuang3 0968106233
 38358山姆爾9170001 ZES2ASJJ 0987-161584
 
 公司電話外線
@@ -218,6 +228,9 @@ pump
 10.4.8.3
 furnace
 furnace
+
+micatm
+R200@03cimmes
 
 printer
 \\nthcprnt05
@@ -391,7 +404,8 @@ dry一矽配4氧，結構緊密
 
 wsix+poly 矽化鎢 降低電阻減少閘極延遲 改善粗糙表面、水痕，更好接合金屬層
 
-alloy curing 增加矽和金屬間的附著力，降低電阻 改善電氣特性和穩定性
+alloy 增加矽和金屬間的附著力，降低電阻 改善電氣特性和穩定性
+curing 去烘乾去雜質
 
 single tc 日常監測 超溫 double tc control+monitor 平常用control
 p7 t9 quartz tube
@@ -404,7 +418,7 @@ PI塗佈 耐熱絕緣材料
 硬烤(固化cure) 物理特性變強
 頂層保護 避免機械傷害 化學腐蝕 濕氣侵入 減少封裝過程熱應力和機械應力影響
 poly沒trap
-nitride沒burn box QSV
+nitride沒burn box? QSV
 Field Oxide(5500Å)
 常開 5年更換
 pump40HZ>60HZ M05 unlock
@@ -412,7 +426,7 @@ LK
 poly 0 130s
 teos 0.02 70
 nitride 0.02 130
-垂直占地小、汙染少、手臂力矩小、均勻性(重力/氣流)
+垂直爐管占地小、汙染少、手臂力矩小、均勻性(重力/氣流)
 
 
 趨入 退火 合金 回流
@@ -440,7 +454,7 @@ out of control 控制失效 超出控制範圍 穩定性可控性 修正即可
 OOS 
 out of specification 規格失效 無法滿足設計要求 報廢
 
-RCA類CMP
+RCA SOG 類CMP
 
 表面鈍化
 
@@ -551,7 +565,10 @@ thin thick
 P 0.3
 T 0.8
 
-poly ox bpsg 無torch?
+n
+thin thick
+0.25 	0.6
+
 
 28429
 s2-11正數
@@ -579,7 +596,7 @@ G/C *號
 F14 > 3.process
 1.progredd > 1.retry
 若無法retry 重開機台online
-恆亮正常，閃爍 reset SG2610-B 左白 右撥為cold start
+恆亮正常，閃爍 reset SG2610-B 左白，右撥為cold start
 
 mesui e-runcard view 輸入lot 多站查詢
 
@@ -669,19 +686,21 @@ auto04 自動BE load/unload
 
 SAC平邊朝後
 
-靠爐壁變厚， P靠爐壁變薄???
+靠爐壁變厚， P6靠爐壁變薄 C1 C6方向反
 
 T9 N2 N5 F27 F30厚片傳送
 
 em-5
-crtl alt del 重開
+crtl+alt+del 重開
+ctrl+esc 程式列表
 secs密碼swan
 ino包含inl
 
+
 m340
 MC-31007A 類比 MFC控制
-MC-31008A-1 ~ 3 數位VALVE、FRONT PANEL控制
 MC-31009A操作設定；APC DRIVER控制
+MC-31008A-1 ~ 3 數位VALVE、FRONT PANEL控制
 SG2700B 如M340CPU，訊號運算處理，M340訊號傳至3100、訊號傳輸橋梁
 
 M120上TC PCB 下溫控PCB
@@ -689,7 +708,7 @@ M120上TC PCB 下溫控PCB
 庫房鑰匙182
 
 
-P6 no P09
+P6沒有P09
 
 outlook 行事曆 共用行事曆 新增
 行事曆 新項目 會議 必要 rm. A244 排程幫手check
@@ -789,7 +808,8 @@ POLY BPM 6 MW
 
 WSIX WF6
 
-alloy curing test c05 sampling 間格更短抓資料
+alloy curing test c05
+sampling間格更短抓資料
 
 RTP 1 3全測
 3有GAN 4沒AR
@@ -814,5 +834,30 @@ GRD Z2 wheel disco
 Z1 dressing 綠色 粗
 Z2 dressing 咖啡色 細
 
-polymide 8孔tube?
+polyox 7孔tube
 TCU 20+-2度
+
+T5 T6 N2 N6 N7 M340*2
+APC 下層340
+
+VL
+S1~S4 manual low medium high
+S5 motion 1 and 4 load
+S6 motion 2 and 5 load
+S7 motion 3 and 6 load
+S7 motion 1 and 4 unload
+S9 motion 2 and 5 unload
+S10 motion 3 and 6 unload
+
+T1 T2 reserve
+T3 motions 1 and 4 wait time load
+T4 motions 2 and 5 wait time load
+T5 motions 3 and 6 wait time load
+T6 motions 1 and 4 wait time unload
+T7 motions 2 and 5 wait time unload
+T8 motions 3 and 6 wait time unload
+T9 time between the closing of DS-SWG axis and the elevating of DS-UD axis
+T10 reserve
+
+GRD2/GRD3
+3960/5963
