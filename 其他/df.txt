@@ -65,16 +65,27 @@
 9/2 T3 3PM
 9/3 值班
 
-28333 值班
-28238 leader
+28333 FUR 值班
+28238 FUR leader
+28339 IMP 值班
+28335 IMP leader
 28136管制台
 31119救護
 32119事件
+33069警衛室
+23246健康中心
+28419電
 28429水課
-28439氣課
-28449氣課EA(酸坊)
+28439氣化課
+28449氣化課EA(酸坊)
 28331/38331老闆
 28131 S100值班主任
+28128 主任日班
+28234 210
+24330 R200值班
+33251 E200胡勝彥
+28412 電廠務 周楊成
+28433 氣廠務 黃建誌
 
 FUR
 28360 leader oncall
@@ -83,12 +94,14 @@ FUR
 38336陳宸緯1240170 CWChen27 0921-441136
 38361林峻毅1240097 JYLin 0981-501710
 35356蔡孟哲1000998 MCTsai4 0963-154052
-38360高明勝1240171 MSKao 0970-505646
+38360高明聖1240171 MSKao 0970-505646
 38331邱尊護1940132 THChiu 28331 0935-023783
 38332林韋志1170064 WCLin15 0926-810100
 38352顏竹1240076 YEnchu 0975-952230
 38350歐陽以恆1200247 YHOuyang 0919-078234
 38359吳致佑1240164 ZYWu 0970-665523
+28342梁碩智1250034 SZLiang 0905700119
+28377歐佳鑫1250043 JXOu 0978586566
 38440麥可9200004 ZES4DML 0987-433728
 38442托馬斯9220035 ZES2CTJDC 0976-441377
 38441拉菲9220037 ZES2VRT 0916-453134
@@ -103,7 +116,11 @@ IMP
 38354徐偉傑1110178 WCHsu2 0972-285598
 38335楊裕濬1000366 YCYang7 0975-783729
 38333陳侑聖1220187 YSChen15 0978-535663
+28367王子碩1250041 ZSWang2 0905732130
+28204黃建豪1250074 JHHuang3 0968106233
 38358山姆爾9170001 ZES2ASJJ 0987-161584
+
+零用金林佳璘
 
 公司電話外線
 411, 0 0X-XXXXXXXXX
@@ -218,6 +235,9 @@ pump
 10.4.8.3
 furnace
 furnace
+
+micatm
+R200@03cimmes
 
 printer
 \\nthcprnt05
@@ -511,8 +531,8 @@ t05
 <100
 30A/oC
 
-N thin normal
-n08	n01
+N thick thin
+  n01	   n08
 1500+-50 200+-13 
 <100 	<16.398 	
 3A/oC(PM測5A) 30A/oC 
@@ -520,8 +540,10 @@ n08	n01
 wsix 
 1200k 1700k LK
 66+-1 49+-1 <0.95
+OOS+-4
 <3.5 <3.5
 1.2o/sec 0.6o/sec
+RS OOS 
 
 koyo 
 c05
@@ -531,9 +553,13 @@ c05
 RTP
 710 	925 	980	PTC
 3.9+-1 163+-9	122+-5 <29
++-2.4	142~190	108~153 OOS
 <5	<25	<15
 EM^ RSv
 1.4o/EM 20o/EM 10o/em
+
+RTP4 no AR
+RTP2 no 925/980 no PYRO
 
 PTC<25
 
@@ -668,12 +694,13 @@ T4 99 O2 PURGE (有H2才跳T4)
 
 Z bpsg Y polyox
 
+8586
 VL ID35 > sys:8848 > posc > check position = no > 重找position
 auto04 自動BE load/unload
 
 SAC平邊朝後
 
-靠爐壁變厚， P靠爐壁變薄???
+靠爐壁變厚， P6靠爐壁變薄 C1 C6方向反
 
 T9 N2 N5 F27 F30厚片傳送
 
@@ -686,8 +713,8 @@ ino包含inl
 
 m340
 MC-31007A 類比 MFC控制
-MC-31008A-1 ~ 3 數位VALVE、FRONT PANEL控制
 MC-31009A操作設定；APC DRIVER控制
+MC-31008A-1 ~ 3 數位VALVE、FRONT PANEL控制
 SG2700B 如M340CPU，訊號運算處理，M340訊號傳至3100、訊號傳輸橋梁
 
 M120上TC PCB 下溫控PCB
@@ -823,3 +850,117 @@ Z2 dressing 咖啡色 細
 
 polyox 7孔tube
 TCU 20+-2度
+
+T5 T6 N2 N6 N7 M340*2
+APC 下層340
+
+VL
+S1~S4 manual low medium high
+S5 motion 1 and 4 load
+S6 motion 2 and 5 load
+S7 motion 3 and 6 load
+S7 motion 1 and 4 unload
+S9 motion 2 and 5 unload
+S10 motion 3 and 6 unload
+
+T1 T2 reserve
+T3 motions 1 and 4 wait time load
+T4 motions 2 and 5 wait time load
+T5 motions 3 and 6 wait time load
+T6 motions 1 and 4 wait time unload
+T7 motions 2 and 5 wait time unload
+T8 motions 3 and 6 wait time unload
+T9 time between the closing of DS-SWG axis and the elevating of DS-UD axis
+T10 reserve
+
+GRD2/GRD3
+3960/5963
+
+
+	lift sus
+lift --
+process ++
+release +-
+
+SS-5 平邊下
+
+m340 control 16 valve(A/D)、8 MFC(D/A)
+1 driver control 16 vlaves, M3200 controlling 48 valves (3 driver)
+
+vac controller
+H: 0.3-20
+S: 0.003-20torr
+L: 0.003-0.3
+
+zone1 handle center source zone2
+
+M120 dip switch 87654321
+1. on fro mantaint, keep off for normal use
+2. turn on for 5 zone heater that use zone 1, off for 3zone, not use zone 1(btm-1)
+3. turn on for 5 zone heater that use zone 2, off for 3zone, not use zone 2(top)
+4. M3200 to M120 光纖速率, on-4800BPS, off-9600BPS, keep on
+5. not used
+6. select a noise filter to thermocouple, keep off
+7. power supply freq, on-60hz, off-50hz
+8. not use, keep off
+
+LED
+1. 2. 3. lighten when the temp convergence met
+4. 5. formulate the time of thermocouple, 閃爍頻率 50HZ 5mS, 60HZ 4.16mS
+6. 光纖接收就亮
+7. 光纖傳送就亮
+8. 2秒閃爍一次代表正常執行
+
+1uV = 0.1度
+
+mixed 100% = paddle
+
+HHC=TB-600=TBAWL
+
+main power: main power
+sub power: furnace power
+excess: furnace overheat
+SCR. O.H: SCR heat sink temp has gone up to more than 80
+chamber O.H.: heater installed spot indise the furnce has gone up to 130
+water low: cooling water flow rate has dropped below the set level
+power down: main circuit breaker is opened
+smoke: not used
+exhaust: exhaust fan stopped(upper)
+trans O.H.: transformer is overheat more then 130變壓器
+
+CP3 rotate
+
+RTP cooling沒有=有run
+若沒滿批，cooling有=有可能run (因為在load端空抓，沒時間抓cooling)
+
+pyro = ERP system = ATP1
+只有第1片I-Cold
+
+交接自動化
+today download .iqy 查詢與連線 開啟檔案自動更新 驗證設定選無 資料來源全域權限清除
+全選 轉文字 轉自動換行 選表格固定欄寬
+
+
+TLC 04 42 test run
+
+ctl-11 POWER
+12345
+紅綠x綠黑白
+
+LN -V+V
+黑白 綠紅X
+
+
+    SA SB EB EA
+N01 3  17 18 27
+N08 36 16 17 25
+T05 3  13 14 21
+P07 3  14 15 21
+
+heater 26nm torc
+
+675 膠帶205
+
+PR
+http://nthccimweb01/eform/S700/cgs/Default.aspx
+https://nuvoton.sharepoint.com/sites/S00P/Cost/Shared%20Documents/Forms/AllItems.aspx
